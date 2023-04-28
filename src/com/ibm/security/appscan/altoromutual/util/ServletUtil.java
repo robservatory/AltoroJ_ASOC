@@ -92,7 +92,7 @@ public class ServletUtil {
 		File file = new File(path);
 		Document document;
 		try {
-			.newDocumentBuilder().parse(file);
+			
 			// root node
 			NodeList nodes = document.getElementsByTagName("news");
 
