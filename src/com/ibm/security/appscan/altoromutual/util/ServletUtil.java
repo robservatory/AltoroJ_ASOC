@@ -92,8 +92,7 @@ public class ServletUtil {
 		File file = new File(path);
 		Document document;
 		try {
-			document = DocumentBuilderFactory.newInstance()
-					.newDocumentBuilder().parse(file);
+			.newDocumentBuilder().parse(file);
 			// root node
 			NodeList nodes = document.getElementsByTagName("news");
 
